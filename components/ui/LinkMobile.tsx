@@ -12,12 +12,12 @@ const LinkMobile = () => {
           <AlignLeft size={24} />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="lg:hidden" align="start" sideOffset={10}>
+      <DropdownMenuContent key={"A"} className="lg:hidden" align="start" sideOffset={10}>
         {links.map((link) => {
           const { ref, label } = link;
           return (
-            // eslint-disable-next-line react/jsx-key
-            <DropdownMenuItem>
+             
+            <DropdownMenuItem key={label}>
               <Link
                 href={ref}
                 key={label}>

@@ -7,5 +7,6 @@ export const links: Link[] = [
     { ref: "/", label: "Home" },
     {ref: "/about", label: "About"},
     {ref:"/login", label: "Login"},
-    {ref:"/signup", label: "Signup"}
+    {ref:"/signup", label: "Signup"},
+    {ref:"/coran", label: "Coran"},
 ];
